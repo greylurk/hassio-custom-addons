@@ -1,4 +1,4 @@
-FROM armhf-latest-stable
+FROM %%BASE_IMAGE%%
 
 RUN apk add --no-cache openvpn jq
 
