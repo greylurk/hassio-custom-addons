@@ -13,6 +13,6 @@
         "config": "str"
     },
     "host_network": true,
-    "devices": [ "/dev/net/tun" ],
+    "devices": [ "/dev/net/tun:/dev/net/tun:rw" ],
     "privileged": [ "NET_ADMIN" ]
 }
