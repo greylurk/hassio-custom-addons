@@ -7,7 +7,7 @@
     "startup": "service",
     "boot": "auto",
     "ports": {
-        "5556/tcp": "5556"
+        "5556/tcp": 5556
     },
     "options": {
         "devices": [{"name": "default", "host":"192.168.0.100:5555"}]
