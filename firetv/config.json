@@ -4,7 +4,7 @@
     "slug": "firetv",
     "description": "FireTV App",
     "url": "https://github.com/greylurk/hassio-addon-experiments",
-    "startup": "service",
+    "startup": "services",
     "boot": "auto",
     "ports": {
         "5556/tcp": 5556
