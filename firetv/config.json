@@ -1,0 +1,18 @@
+{
+    "name": "FireTV",
+    "version": "0.0.1",
+    "slug": "firetv",
+    "description": "FireTV App",
+    "url": "https://github.com/greylurk/hassio-addon-experiments",
+    "startup": "service",
+    "boot": "auto",
+    "ports": {
+        "5556/tcp": "5556"
+    },
+    "options": {
+        "devices": [{"name": "default", "host":"192.168.0.100:5555"}]
+    },
+    "schema": {
+        "devices": [{"name": "str", "host": "str"}]
+    }
+}
