@@ -1,4 +1,5 @@
-FROM %%BASE_IMAGE%%
+ARG BUILD_FROM
+FROM $BUILD_FROM
 
 RUN apk add --no-cache swig libressl-dev python-dev libusb py-yaml py-flask py-pip build-base
 RUN pip install https://pypi.python.org/packages/source/M/M2Crypto/M2Crypto-0.24.0.tar.gz

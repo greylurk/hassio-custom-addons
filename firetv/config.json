@@ -1,6 +1,6 @@
 {
     "name": "FireTV",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "slug": "firetv",
     "description": "FireTV App",
     "url": "https://github.com/greylurk/hassio-addon-experiments",

@@ -1,4 +1,5 @@
-FROM %%BASE_IMAGE%%
+ARG BUILD_FROM
+FROM $BUILD_FROM
 
 RUN apk add --no-cache openvpn jq
 
