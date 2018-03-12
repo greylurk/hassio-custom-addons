@@ -2,7 +2,7 @@
 
 CONFIG_PATH=/data/options.json
 
-jq --raw-output ".config" $CONFIG_PATH > openvpn.conf
+CONFIG_PATH=$(jq --raw-output ".ovpn_file")
 
-openvpn openvpn.conf
+openvpn $(CONFIG_PATH)
     

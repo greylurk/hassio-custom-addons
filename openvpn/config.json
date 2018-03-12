@@ -7,11 +7,12 @@
     "startup": "application",
     "boot": "auto",
     "options": {
-        "config": ""
+        "ovpn_file": ""
     },
     "schema": {
-        "config": "str"
+        "ovpn_file": "str"
     },
+    "map": [ "config" ],
     "host_network": true,
     "devices": [ "/dev/net/tun:/dev/net/tun:rw" ],
     "privileged": [ "NET_ADMIN" ]
