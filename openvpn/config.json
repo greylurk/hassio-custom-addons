@@ -1,6 +1,6 @@
 {
     "name": "OpenVPN",
-    "version": "0.1.3",
+    "version": "0.2.0",
     "slug": "openvpn",
     "description": "OpenVPN Bridging",
     "url": "https://github.com/greylurk/hassio-addon-experiments",
