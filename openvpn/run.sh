@@ -1,8 +1,8 @@
 #!/bin/sh
 
-CONFIG_PATH=/data/options.json
+CONFIG_PATH=/config/$(jq --raw-output ".ovpn_file")
 
-CONFIG_PATH=$(jq --raw-output ".ovpn_file")
+echo "Opening configuration at ${CONFIG_PATH}"
 
 openvpn $(CONFIG_PATH)
     
